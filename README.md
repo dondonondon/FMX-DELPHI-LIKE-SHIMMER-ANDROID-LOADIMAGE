@@ -4,9 +4,8 @@
 
 - Delphi
 - Android Firemonkey
-- LOAD IMAGE ANDROID LIKE SHIMMER LOADING
-- TASK
-- MULTITHREAD
+- Shimmer Loading FMX
+- Tasking, MultiThread, Parallel.For
 
 **DEMO APPS**
 [DOWNLOAD HERE](https://bit.ly/ModelKisKisContoh)
