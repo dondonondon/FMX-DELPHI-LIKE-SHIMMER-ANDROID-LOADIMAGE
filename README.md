@@ -1,4 +1,5 @@
-# FMX-LIKE-INTERLACED-ANDROID-LOADIMAGE
+# FMX-LIKE-SHIMMER-ANDROID-LOADIMAGE
+# Delphi Firemonkey Android
 
 - Delphi
 - Android Firemonkey
