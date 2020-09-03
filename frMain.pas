@@ -146,14 +146,14 @@ begin
       base := fnReplaceStr(arr[1,0], '\n','');
       base := fnReplaceStr(base, '\r','');
 
-      //fnDecode(base, id + '.jpg');   //simpan image dahulu
+      fnDecode(base, id + '.jpg');   //simpan image dahulu
       //Sleep(100);
 
       TThread.Synchronize(nil, procedure begin
         ci.Fill.Kind := TBrushKind.Bitmap;
         ci.Fill.Bitmap.WrapMode := TWrapMode.TileStretch;
-        fnDecodeImg(ci, base);
-        //fnLoadImage(ci, id + '.jpg'); //panggil image yang sudah disimpan
+        //fnDecodeImg(ci, base);
+        fnLoadImage(ci, id + '.jpg'); //panggil image yang sudah disimpan
       end);
     except
       fnSetImageNull(ci);
