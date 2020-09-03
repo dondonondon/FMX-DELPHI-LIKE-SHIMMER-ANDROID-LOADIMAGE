@@ -9,7 +9,7 @@
 **PREVIEW**
 ![alt text](https://github.com/dondonondon/FMX-LIKE-INTERLACED-ANDROID-LOADIMAGE/blob/master/assets/img/Screenshot_20200904-001234.png?raw=true)
 
-HOW TO RUN ON YOUR PC 
+HOW TO RUN ON YOUR PC / ANDROID
 
 1. **DOWNLOAD DATABASE HERE**
 
@@ -27,5 +27,6 @@ HOW TO RUN ON YOUR PC
 5. **CHANGE uRest.pas ON PROJECT**
   change url on source uRest.pas to link / url / directory your APIImg.php, for example *C:\Xampp\htdocs\appru\API\SampleLoadImg\* , 
   so you must change url on uRest.pas to *http://localhost/appru/API/SampleLoadImg/APIImg.php?key=apiapi&act=* Like this
+  if on ANDROID please using IP Addres, don't using *http://localhost...* 
   
 ![alt text](https://github.com/dondonondon/FMX-LIKE-INTERLACED-ANDROID-LOADIMAGE/blob/master/assets/img/Rest.PNG?raw=true)
