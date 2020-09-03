@@ -20,7 +20,7 @@ HOW TO RUN ON YOUR PC / ANDROID
    [DOWNLOAD HERE](https://drive.google.com/file/d/1gNSKR10pggWr-sw2auiolDsmizCOicb4/view?usp=sharing)
    
 2. **EXPORT DATABASE**
-3. **COPY FILE APIImg.php to your xampp (htdocs)**
+3. **COPY FILE APIImg.php to your xampp (htdocs) CHECK assets/database**
    for example copy file to *C:\Xampp\htdocs\appru\API\SampleLoadImg\*
 4. **CHANGE CONNECTION DATABASE ON APIImg.php WITH DATABASE NAME THAT WAS CREATED ON NO. 1**
 
