@@ -12,10 +12,9 @@ uses
 
 const
   {$IF DEFINED(IOS) or DEFINED(ANDROID)}
-      url = 'https://www.blangkon.net/API/SampleLoadImg/APIImg.php?key=apiapi&act=';
+      url = 'http://localhost/appru/API/SampleLoadImg/APIImg.php?key=apiapi&act=';   //changes this to your IP / HOST
   {$ELSE}
-      //url = 'http://localhost/appru/API/SampleLoadImg/APIImg.php?key=apiapi&act=';
-      url = 'https://www.blangkon.net/API/SampleLoadImg/APIImg.php?key=apiapi&act=';
+      url = 'http://localhost/appru/API/SampleLoadImg/APIImg.php?key=apiapi&act=';   //changes this to your IP / HOST
   {$ENDIF}
 
 type
