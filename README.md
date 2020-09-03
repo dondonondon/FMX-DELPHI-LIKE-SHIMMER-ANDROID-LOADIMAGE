@@ -5,6 +5,8 @@
  - TASK
  - MULTITHREAD
 
+**DEMO APPS**
+[DOWNLOAD HERE](https://bit.ly/ModelKisKisContoh)
  
 **PREVIEW**
 ![alt text](https://github.com/dondonondon/FMX-LIKE-INTERLACED-ANDROID-LOADIMAGE/blob/master/assets/img/Screenshot_20200904-001234.png?raw=true)
