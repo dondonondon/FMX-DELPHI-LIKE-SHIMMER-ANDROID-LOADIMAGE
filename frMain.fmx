@@ -1,0 +1,101 @@
+object FMain: TFMain
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 720
+  ClientWidth = 360
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object vsMain: TVertScrollBox
+    Align = Client
+    Size.Width = 360.000000000000000000
+    Size.Height = 654.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ShowScrollBars = False
+    Viewport.Width = 360.000000000000000000
+    Viewport.Height = 654.000000000000000000
+  end
+  object btnLoadData: TCornerButton
+    Align = Top
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 8.000000000000000000
+    Margins.Bottom = 8.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 344.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Load Data'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = btnLoadDataClick
+  end
+  object ciCopy: TCircle
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = claBlack
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.Y = 0.500000000000000000
+    Fill.Gradient.StopPosition.X = 1.000000000000000000
+    Fill.Gradient.StopPosition.Y = 0.500000000000000000
+    Position.X = 112.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 154.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFE3E3E3
+    Visible = False
+  end
+  object grAni: TGradientAnimation
+    Duration = 1.125000000000000000
+    Inverse = True
+    Loop = True
+    PropertyName = 'Fill.Gradient'
+    StartValue.Points = <
+      item
+        Color = xFF565656
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    StartValue.StartPosition.X = 1.000000000000000000
+    StartValue.StartPosition.Y = 0.788675189018249500
+    StartValue.StopPosition.Y = 0.211324840784072900
+    StopValue.Points = <
+      item
+        Color = xFFA7A7A7
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    StopValue.StartPosition.X = 1.000000000000000000
+    StopValue.StartPosition.Y = 0.919549822807312000
+    StopValue.StopPosition.Y = 0.080450169742107390
+  end
+  object nHTTP: TNetHTTPClient
+    Asynchronous = False
+    ConnectionTimeout = 60000
+    ResponseTimeout = 60000
+    HandleRedirects = True
+    AllowCookies = True
+    UserAgent = 'Embarcadero URI Client/1.0'
+    Left = 240
+    Top = 104
+  end
+end
