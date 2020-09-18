@@ -6,6 +6,7 @@
 - Android Firemonkey
 - Shimmer Loading FMX
 - Tasking, MultiThread, Parallel.For
+- Simple WebService
 
 **DEMO APPS**
 [DOWNLOAD HERE](https://bit.ly/ModelKisKisContoh)
